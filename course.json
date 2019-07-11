@@ -1,73 +1,140 @@
 {
   "version": "1",
-  "title": "大数据案例分析实验",
+  "title": "Shell编程教程",
   "author": "admin",
-  "description": "泰坦尼克乘客生存预测 用声音预测性别 优秀员工离职原因分析与预测 影响学生招生的因素 电信行业客户流失分析 ",
+  "description": "hello-world 变量 将参数传递给脚本 数组 阵列的比较 基本操作员 基本字符串操作 做决定 循环 Shell函数 ",
   "scenarios": [
     {
-      "title": "泰坦尼克乘客生存预测",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+      "title": "hello-world",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "title": "泰坦尼克乘客生存预测",
-          "text": "scenarios/泰坦尼克乘客生存预测.md",
+          "title": "hello-world",
+          "text": "scenarios/hello-world.md",
           "program": "scripts/program.sh",
           "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
     },
     {
-      "title": "用声音预测性别",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+      "title": "变量",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "title": "用声音预测性别",
-          "text": "scenarios/用声音预测性别.md",
+          "title": "变量",
+          "text": "scenarios/变量.md",
           "program": "scripts/program.sh",
           "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
     },
     {
-      "title": "优秀员工离职原因分析与预测",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+      "title": "将参数传递给脚本",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "title": "优秀员工离职原因分析与预测",
-          "text": "scenarios/优秀员工离职原因分析与预测.md",
+          "title": "将参数传递给脚本",
+          "text": "scenarios/将参数传递给脚本.md",
           "program": "scripts/program.sh",
           "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
     },
     {
-      "title": "影响学生招生的因素",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+      "title": "数组数组",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "title": "影响学生招生的因素",
-          "text": "scenarios/影响学生招生的因素.md",
+          "title": "数组",
+          "text": "scenarios/数组.md",
           "program": "scripts/program.sh",
           "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
     },
     {
-      "title": "电信行业客户流失分析",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+      "title": "阵列的比较",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "title": "电信行业客户流失分析",
-          "text": "scenarios/电信行业客户流失分析.md",
+          "title": "阵列的比较",
+          "text": "scenarios/阵列的比较.md",
           "program": "scripts/program.sh",
           "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
     }
+    {
+      "title": "基本操作员",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "基本操作员",
+          "text": "scenarios/基本操作员.md",
+          "program": "scripts/program.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+{
+      "title": "基本字符串操作",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "基本字符串操作",
+          "text": "scenarios/基本字符串操作.md",
+          "program": "scripts/program.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+{
+      "title": "做决定",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "做决定",
+          "text": "scenarios/做决定.md",
+          "program": "scripts/program.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+{
+      "title": "循环",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "循环",
+          "text": "scenarios/循环.md",
+          "program": "scripts/program.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+{
+      "title": "Shell函数",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "Shell函数",
+          "text": "scenarios/Shell函数.md",
+          "program": "scripts/program.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    
+    
   ]
 }

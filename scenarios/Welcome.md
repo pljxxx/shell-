@@ -12,7 +12,7 @@
 
 ### 学习基础知识
 
--Hello,World！<https://www.learnshell.org/en/Hello%2C_World%21>
+-[Hello,World！](https://github.com/pljxxx/shell-/edit/master/scenarios/Welcome.md)
 
 -变量
 

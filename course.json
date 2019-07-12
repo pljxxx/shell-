@@ -17,6 +17,19 @@
         }
       ]
     },
+     {
+      "title": "Welcome",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "Welcome",
+          "text": "scenarios/Welcome.md",
+          "program": "scripts/program.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
     {
       "title": "变量",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",

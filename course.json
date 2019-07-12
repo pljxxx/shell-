@@ -239,13 +239,13 @@
       ]
     },
 {
-      "title": "特殊命令sed，awk，grep，sort",
+      "title": "特殊命令",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "title": "特殊命令sed，awk，grep，sort",
-          "text": "scenarios/特殊命令sed，awk，grep，sort.md",
+          "title": "特殊命令",
+          "text": "scenarios/特殊命令.md",
           "program": "scripts/program.sh",
           "extraTab": "[domain]:[:5678]/desktop.html"
         }

@@ -200,13 +200,13 @@
       ]
     },
 {
-      "title": "流程替代",
+      "title": "进程替换",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "title": "流程替代",
-          "text": "scenarios/流程替代.md",
+          "title": "进程替换",
+          "text": "scenarios/进程替换.md",
           "program": "scripts/program.sh",
           "extraTab": "[domain]:[:5678]/desktop.html"
         }

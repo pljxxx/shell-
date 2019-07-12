@@ -1,1 +1,33 @@
+## Shell函数
 
+
+function_name {
+  command...
+}
+```
+
+只需编写名称即可调用函数。 函数调用等同于命令。 可以通过在函数名称后指定参数来将参数传递给函数。 第一个参数在函数中称为$ 1，第二个参数为$ 2等。
+
+```shell
+function function_B {
+  echo "Function B."
+}
+function function_A {
+  echo "$1"
+}
+function adder {
+  echo "$(($1 + $2))"
+}
+
+# FUNCTION CALLS
+# Pass parameter to function A
+function_A "Function A."     # Function A.
+function_B                   # Function B.
+# Pass two parameters to function adder
+adder 12 56                  # 68
+```
+
+### 练习
+
+在本练习中，您将需要编写一个名为ENGLISH_CALC的函数，该函数可以处理以下句子：
+'3加5'，'5减1'或'4乘6'并将结果打印为：'3 + 5 = 8'，'5  -  1 = 4'或'4 * 6 = 24'。

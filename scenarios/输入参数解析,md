@@ -4,7 +4,7 @@
 
 要提供教程，只需分叉以下存储库：
 
-<https://github.com/ronreiter/interactive-tutorials>
+< https://github.com/ronreiter/interactive-tutorials >
 
 然后，您可以添加或编辑教程，然后向我发送拉取请求。
 
@@ -18,7 +18,7 @@
 
 ### 文件名.md
 
-```
+```shell
 Tutorial
 --------
 Here you may write text that explains a certain feature.

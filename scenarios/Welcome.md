@@ -14,42 +14,42 @@
 
 -[Hello,World！](https://github.com/pljxxx/shell-/blob/master/scenarios/hello-world.md)
 
--变量
+-[变量](https://github.com/pljxxx/shell-/blob/master/scenarios/变量.md)
 
--将参数传递给脚本
+-[将参数传递给脚本](https://github.com/pljxxx/shell-/blob/master/scenarios/将参数传递给脚本.md)
 
--数组
+-[数组](https://github.com/pljxxx/shell-/blob/master/scenarios/数组.md)
 
--阵列的比较
+-[阵列的比较](https://github.com/pljxxx/shell-/blob/master/scenarios/阵列的比较.md)
 
--基本操作员
+-[基本操作](https://github.com/pljxxx/shell-/blob/master/scenarios/基本操作.md)
 
--基本字符串操作
+-[基本字符串操作](https://github.com/pljxxx/shell-/blob/master/scenarios/基本字符串操作.md)
 
--做决定
+-[做决定](https://github.com/pljxxx/shell-/blob/master/scenarios/做决定.md)
 
--循环
+-[循环](https://github.com/pljxxx/shell-/blob/master/scenarios/循环.md)
 
---Shell函数
+--[Shell函数](https://github.com/pljxxx/shell-/blob/master/scenarios/Shell函数)
 
 ### 高级教程
 
--特殊变量
+-[特殊变量](https://github.com/pljxxx/shell-/blob/master/scenarios/特殊变量.md)
 
--Bash陷阱命令
+-[Bash陷阱命令](https://github.com/pljxxx/shell-/blob/master/scenarios/Bash陷阱命令.md)
 
--文件测试
+-[文件测试](https://github.com/pljxxx/shell-/blob/master/scenarios/文件测试.md)
 
--输入参数解析
+-[输入参数解析](https://github.com/pljxxx/shell-/blob/master/scenarios/输入参数解析.md)
 
--管道
+-[管道](https://github.com/pljxxx/shell-/blob/master/scenarios/管道.md)
 
--流程替代
+-[进程替换](https://github.com/pljxxx/shell-/blob/master/scenarios/进程替换.md)
 
--常用表达
+-[常用表达式](https://github.com/pljxxx/shell-/blob/master/scenarios/常用表达式.md)
 
--特殊命令sed，awk，grep，sort
+-[特殊命令sed，awk，grep，sort](https://github.com/pljxxx/shell-/blob/master/scenarios/特殊命sed%EF%BC%8Cawk%EF%BC%8Cgrep%EF%BC%8Csort.md)
 
 ### 贡献教程
 
-阅读更多内容：贡献教程
+阅读更多内容：[贡献教程](https://github.com/pljxxx/shell-/blob/master/scenarios/贡献教程.mdhttps://github.com/pljxxx/shell-/blob/master/scenarios/输入参数解析.md)

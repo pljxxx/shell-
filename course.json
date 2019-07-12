@@ -70,13 +70,13 @@
       ]
     }
     {
-      "title": "基本操作员",
+      "title": "基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "title": "基本操作员",
-          "text": "scenarios/基本操作员.md",
+          "title": "基本操作",
+          "text": "scenarios/基本操作.md",
           "program": "scripts/program.sh",
           "extraTab": "[domain]:[:5678]/desktop.html"
         }

@@ -3,7 +3,7 @@
   "title": "Shell编程教程",
   "author": "admin",
   "description": "Welcome hello-world 变量 将参数传递给脚本 数组 阵列的比较 基本操作 基本字符串操作 做决定 循环 Shell函数 特殊变量 Bash陷阱命令 文件测试 输入参数解析 管道 进程替换 常用表达式 特殊命令sed，awk，grep，sort 贡献教程",
-  "scenarios": 
+  "scenarios": [
     {
       "title": "hello-world",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",

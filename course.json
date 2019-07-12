@@ -2,7 +2,7 @@
   "version": "1",
   "title": "Shell编程教程",
   "author": "admin",
-  "description": "hello-world 变量 将参数传递给脚本 数组 阵列的比较 基本操作员 基本字符串操作 做决定 循环 Shell函数 ",
+  "description": "hello-world 变量 将参数传递给脚本 数组 阵列的比较 基本操作员 基本字符串操作 做决定 循环 Shell函数 特殊变量 Bash陷阱命令 文件测试 输入参数解析 管道 流程替代 常用表达 特殊命令sed，awk，grep，sort 贡献教程",
   "scenarios": [
     {
       "title": "hello-world",
@@ -36,7 +36,7 @@
       "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "title": "将参数传递给脚本",
+          "title": "将参数传递给脚本"
           "text": "scenarios/将参数传递给脚本.md",
           "program": "scripts/program.sh",
           "extraTab": "[domain]:[:5678]/desktop.html"
@@ -134,7 +134,122 @@
         }
       ]
     },
-    
-    
+     {
+      "title": "特殊变量",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "特殊变量",
+          "text": "scenarios/特殊变量.md",
+          "program": "scripts/program.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+{
+      "title": "Bash陷阱命令",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "Bash陷阱命令",
+          "text": "scenarios/Bash陷阱命令.md",
+          "program": "scripts/program.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+{
+      "title": "文件测试",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "文件测试",
+          "text": "scenarios/文件测试.md",
+          "program": "scripts/program.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+{
+      "title": "输入参数解析",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "输入参数解析",
+          "text": "scenarios/输入参数解析.md",
+          "program": "scripts/program.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+{
+      "title": "管道",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "管道",
+          "text": "scenarios/管道.md",
+          "program": "scripts/program.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+{
+      "title": "流程替代",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "流程替代",
+          "text": "scenarios/流程替代.md",
+          "program": "scripts/program.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+{
+      "title": "常用表达式",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "常用表达式",
+          "text": "scenarios/常用表达式.md",
+          "program": "scripts/program.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+{
+      "title": "特殊命令sed，awk，grep，sort",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "特殊命令sed，awk，grep，sort",
+          "text": "scenarios/特殊命令sed，awk，grep，sort.md",
+          "program": "scripts/program.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+{
+      "title": "贡献教程",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "贡献教程",
+          "text": "scenarios/贡献教程.md",
+          "program": "scripts/program.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
   ]
 }

@@ -5,11 +5,11 @@
 陷阱是你尝试的命令：
 
 - ```trap <arg/function> <signal>```
-  
-  ### 例
+
+### 例
   
  ```shell
- #!/bin/bash
+#!/bin/bash
 # traptest.sh
 # notice you cannot make Ctrl-C work in this shell, 
 # try with your local one, also remeber to chmod +x 
@@ -28,29 +28,29 @@ done
 当然你可以替换“ ```echo Booh！```” 功能：
 
 ```shell
-  function booh {
-    echo "booh!"
+function booh {
+  echo "booh!"
 }
 ```
 
 并在陷阱中调用它：
 
 ```shell
-  trap booh SIGINT SIGTERM
+trap booh SIGINT SIGTERM
 ```
 
 您可以捕获的一些常见信号类型：
 
-- SIGINT：用户发送中断信号（Ctrl + C）
+-  ```SIGINT ```：用户发送中断信号（Ctrl + C）
 
-- SIGQUIT：用户发送退出信号（Ctrl + C）
+-  ```SIGQUIT ```：用户发送退出信号（Ctrl + C）
 
-- SIGFPE：尝试非法数学运算
+-  ```SIGFPE ```：尝试非法数学运算
 
 您可以输入以下命令检出所有信号类型：
 
 ```shell
-  kill -l
+kill -l
 ```
 
 注意每个信号名称前的数字，您可以使用该数字来避免在陷阱中键入长字符串：

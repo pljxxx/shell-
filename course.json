@@ -49,7 +49,7 @@
       "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "title": "将参数传递给脚本"
+          "title": "将参数传递给脚本",
           "text": "scenarios/将参数传递给脚本.md",
           "program": "scripts/program.sh",
           "extraTab": "[domain]:[:5678]/desktop.html"
